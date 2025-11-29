@@ -1,0 +1,58 @@
+/* Dark Mode Styles */
+body.dark {
+  background-color: #181A20;
+  color: #E5E7EB;
+}
+
+body.dark .crypto-card,
+body.dark .bg-gray-50 {
+  background-color: #2B2D33;
+}
+
+body.dark .text-gray-800 {
+  color: #E5E7EB !important;
+}
+
+body.dark .text-gray-600 {
+  color: #9CA3AF !important;
+}
+
+body.dark nav a {
+    color: #E5E7EB;
+}
+
+body.dark nav a:hover {
+    color: #FCD535;
+}
+
+body.dark .bg-yellow-100 {
+    background-color: rgba(252, 213, 53, 0.1);
+}
+
+body.dark .border {
+    border-color: #4A5568;
+}
+
+body.dark input, 
+body.dark textarea {
+    background-color: #2B2D33;
+    border-color: #4A5568;
+}
+
+body.dark .bg-gray-200 {
+    background-color: #4A5568;
+    color: #E5E7EB;
+}
+body.dark .bg-gray-200:hover {
+    background-color: #2D3748;
+}
+
+/* Markets Table */
+#markets table th, #markets table td {
+    white-space: nowrap;
+}
+
+/* Membership Section - Highlighting the Pro card */
+#membership .scale-105 {
+    transform: scale(1.05);
+}
